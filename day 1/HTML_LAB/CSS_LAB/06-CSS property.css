@@ -1,0 +1,57 @@
+.side-of-font-cm{
+    font-size: 1.3cm;
+    color: salmon;
+}
+.side-of-font-mm{
+    font-size: 10mm;
+    color: seagreen;
+}
+.side-of-font-in{
+    font-size: 1in;
+    color: tan;
+}
+.side-of-font-px{
+    font-size: 50px;
+}
+.side-of-font-pt{
+    font-size: 50pt;
+}
+.side-of-font-pc{
+    font-size: 1pc;
+}
+.side-of-font-em{
+    font-size: 10em ;
+    color:aqua ;
+}
+.side-of-font-ex{
+    font-size: 10ex ;
+    color: blueviolet;
+}
+.side-of-font-ch{
+    font-size: 10ch;
+    color:darkgoldenrod ;
+}
+.side-of-font-rem{
+    font-size: 10rem;
+    color: darkseagreen;
+}
+.side-of-font-vw{
+    font-size: 10vw;
+    color: firebrick;
+}
+.side-of-font-vh{
+    font-size: 10vh;
+    color:goldenrod;
+}
+.side-of-font-vmin{
+    font-size: 10vmin;
+    color:hotpink ;
+}
+.side-of-font-vmax{
+    font-size: 10vmax;
+    color:khaki ;
+}
+.side-of-font-percent{
+    font-size: 500%;
+    color:mediumpurple ;
+}

@@ -1,0 +1,30 @@
+
+.big {
+    font-size: 90px;
+}
+
+.center {
+    text-align: center;
+}
+
+p {
+    font-size: small;
+    color: chocolate;
+}
+
+h1 {
+    font-size: large;
+    color: darkturquoise;
+}
+
+div > div > p {
+    color: darkviolet;
+}
+
+div p span {
+    color: deepskyblue;
+}
+
+div div p {
+    color: salmon;
+}
