@@ -74,3 +74,15 @@ span.text-decoration-overline{text-decoration: overline;}
 span.text-decoration-solid{text-decoration: solid;}
 span.text-decoration-underline{text-decoration: underline;}
 span.text-decoration-wavy{text-decoration: wavy;}
+
+/* text-decoration-color */
+span.text-decoration-red-overline{text-decoration: overline; text-decoration-color: red}
+span.text-decoration-green-line-through{text-decoration: line-through; text-decoration-color: green}
+
+/* add Font */
+@font-face{
+    font-family: Kanit;
+    src: url(../Kanit/Kanit-ExtraBold.ttf)
+}
+
+span.font-face{font:kanit;}
