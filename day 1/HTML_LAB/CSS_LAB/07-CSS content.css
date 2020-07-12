@@ -82,7 +82,10 @@ span.text-decoration-green-line-through{text-decoration: line-through; text-deco
 /* add Font */
 @font-face{
     font-family: Kanit;
-    src: url(../Kanit/Kanit-ExtraBold.ttf)
+    src: url(../Kanit/Kanit-ExtraLight.ttf);
 }
 
-span.font-face{font:kanit;}
+span.font-face{
+   font-family: Kanit ; 
+    font-size: 30px;
+}
