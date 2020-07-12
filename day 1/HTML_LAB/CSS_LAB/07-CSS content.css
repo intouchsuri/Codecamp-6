@@ -81,11 +81,86 @@ span.text-decoration-green-line-through{text-decoration: line-through; text-deco
 
 /* add Font */
 @font-face{
-    font-family: Kanit;
+    font-family: Kanit-extra;
     src: url(../Kanit/Kanit-ExtraLight.ttf);
 }
 
+
 span.font-face{
-   font-family: Kanit ; 
+   font-family: Kanit-extra ; 
     font-size: 30px;
+}
+
+/* font properties */
+
+@font-face{
+    font-family: kanit;
+    src: url(../Kanit/Kanit-Medium.ttf);
+}
+span.font-face-stlye-italic{
+    font-family: Kanit;
+    font-style: italic;
+    font-size: large;
+}
+
+span.font-face-stlye-normal{
+    font-family: Kanit;
+    font-style: normal;
+    font-size: larger;
+}
+
+span.font-face-stlye-oblique{
+    font-family: Kanit;
+    font-style: oblique;
+    font-size: medium;
+}
+
+span.font-face-stlye-initial{
+    font-family: Kanit;
+    font-style: initial;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+span.font-face-stlye-inherit{
+    font-family: Kanit;
+    font-style: inherit;
+    font-size: xx-small;
+    font-variant-east-asian: ruby ;
+}
+
+span.font-face-stlye-unset{
+    font-family: Kanit-extra;
+    font-style: unset;
+    font-size: 1.5cm;
+    font-variant: small-caps;
+}
+
+/* 
+    List Properties
+    ใช้ class ใน track ul
+*/
+/* กรอบนอก */
+ul.list-style-circle {
+    border: solid 1px green;
+    list-style: circle;    
+    list-style-position: inside;
+}
+/* กรอบภายใน */
+ul.list-style-circle > li{
+    border: solid 1px blue;
+    list-style: circle;    
+    list-style-position: inside;
+}
+li.list-style-circle{
+    list-style: circle;
+    border: solid 1px ;
+}
+li.list-style-square > ul{
+    list-style: symbols();
+    color: greenyellow;
+}
+ul.list-style-image > li{
+    list-style-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Wikimedia_Community_Logo_optimized.svg/20px-Wikimedia_Community_Logo_optimized.svg.png);
+
 }
