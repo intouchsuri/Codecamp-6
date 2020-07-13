@@ -35,4 +35,18 @@ tr.data,
 th.data,
 td.data {
     color: saddlebrown;
+    border: solid ;
+}
+/* image properties */
+img.header{
+    border: green 5px;
+    border-radius: 30%;
+    width: 30%;
+    opacity: 65%;
+}
+
+body.background {
+    background-image: url(https://www.incimages.com/uploaded_files/image/1920x1080/getty_177269785_406021.jpg);
+    background-repeat: repeat;
+    background-size: 30%;
 }
