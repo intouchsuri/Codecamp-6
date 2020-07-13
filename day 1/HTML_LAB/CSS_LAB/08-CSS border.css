@@ -30,3 +30,9 @@ th.border-head {
     border-radius: 2vmin;
     border-width: 1px;
 }
+table.data,
+tr.data,
+th.data,
+td.data {
+    color: saddlebrown;
+}
