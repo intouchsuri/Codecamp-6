@@ -162,5 +162,5 @@ li.list-style-square > ul{
 }
 ul.list-style-image > li{
     list-style-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Wikimedia_Community_Logo_optimized.svg/20px-Wikimedia_Community_Logo_optimized.svg.png);
-
+    list-style-position: inside;
 }

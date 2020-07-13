@@ -1,0 +1,32 @@
+table.border-head1{
+    color: pink;
+    font-size: 15px;
+    border: double 10px skyblue;
+    border-radius: 5vmin;
+    border-width: 10px;
+}
+table.border-head2{
+    color: blue;
+    font-size: 15px;
+    border: solid indigo;
+    border-radius: 2vmin;
+    border-width: 1.5 px;
+}
+table.border-head >tr {
+    color: black;
+    border: indigo solid;
+    border-radius: 2vmin;
+    border-width: 1px;
+}
+tr.border-head3{
+    color: pink;
+    border: greenyellow solid;
+    border-radius: 2vmin;
+    border-width: 1px;
+}
+th.border-head {
+    color: black;
+    border: indigo solid;
+    border-radius: 2vmin;
+    border-width: 1px;
+}
