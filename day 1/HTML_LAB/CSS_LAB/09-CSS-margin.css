@@ -1,3 +1,7 @@
+@font-face{
+    font-family: kanit;
+    src: url(../Kanit/Kanit-Medium.ttf);
+}
 div.margin{
     display: inline;
     background-color: skyblue;
@@ -16,4 +20,53 @@ div.padding-1{
 
 /* Display สามารถกำหนด tack ต่างๆของ html ได้เลย */
 
+p.pDisplay{
+    /* display: inline; */
+    display: inline-block;
+    border: 2px solid crimson;
+    background-color: lightsalmon ;
+    font-family: kanit;
+}
 
+
+div.container {
+    display: grid;
+    background-color: saddlebrown;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 40px 40px 40px 40px;
+    grid-gap: 20px;
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+/*     align-items: flex-start; */
+
+}
+div.container > div {
+    
+    background-color: pink;
+    text-align: center;
+    
+}
+div.container2 {
+    display: grid;
+    background-color: saddlebrown;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px  ;
+    grid-gap: 20px;
+/*     justify-content: center;
+    justify-content: space-around; */
+/*     align-items: flex-end; */
+
+}
+div.container2 > div {
+    
+    background-color: greenyellow;
+    text-align: center;
+    
+}
+div.container2 > div.item5{
+    grid-column: 1/5;
+}
+
+div.container2 > div.item6{
+    grid-row: 1/5;
+}
