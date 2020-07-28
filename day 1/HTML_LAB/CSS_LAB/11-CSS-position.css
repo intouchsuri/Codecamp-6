@@ -1,0 +1,20 @@
+div.container {
+  display: flex;
+  width: 20vw;
+  height: 20vh;
+  /* text-align: center; */
+  background-color: lightgreen;
+  /* position: relative; */
+  /*    position: absolute; */
+  /* top: 500px; */
+  /* bottom: 100px; */
+  /* right: 100px; */
+  /* left: 100px; */
+  /* position: fixed; */
+}
+
+div.container > div {
+  background-color: lightgreen;
+  width: 100px;
+  height: 100px;
+}

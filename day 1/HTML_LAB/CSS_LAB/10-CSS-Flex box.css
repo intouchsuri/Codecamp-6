@@ -1,0 +1,17 @@
+/* ทำงานใน container */
+div.flex1{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-wrap: nowrap;
+    flex-wrap: wrap-reverse;
+    /* flex-direction: row; */
+    flex-direction: row-reverse;
+}
+/* ทำงานใน div ย่อยๆ */
+div.flex1 > div{
+    background-color: khaki;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    margin: 10px;
+}
