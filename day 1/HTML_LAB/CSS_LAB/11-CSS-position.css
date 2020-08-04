@@ -3,9 +3,9 @@ div.container {
   width: 20vw;
   height: 20vh;
   /* text-align: center; */
-  background-color: lightgreen;
+  background-color: darkblue;
   /* position: relative; */
-  /*    position: absolute; */
+  /* position: absolute; */
   /* top: 500px; */
   /* bottom: 100px; */
   /* right: 100px; */
@@ -13,8 +13,19 @@ div.container {
   /* position: fixed; */
 }
 
-div.container > div {
+div.container > div.item {
   background-color: lightgreen;
   width: 100px;
   height: 100px;
+  display: flex;
+  /* width: 20vw; */
+  /* height: 20vh; */
+  /* text-align: center; */
+  /* position: relative; */
+  /* position: absolute; */
+  /* top: 500px; */
+  /* bottom: 100px; */
+  /* right: 100px; */
+  /* left: 100px; */
+  /* position: fixed; */
 }
